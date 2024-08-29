@@ -1,0 +1,147 @@
+HTML Template:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">START</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Adicione seu conteúdo principal aqui -->
+        <div class="jumbotron">
+            <h1 class="display-4">Bem-vindo à minha página START!</h1>
+            <p class="lead">Aqui construímos sonhos.</p>
+            <hr class="my-4">
+            <p>A start está no mercado a 30 anos, construímos sonhos antes de realiazar o nosso, o seu é realizado primeiro (CLIQUE EM SAIBA MAIS E ENTRE EM CONTATO).</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Saiba mais</a>
+            </p>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Sobre</h5>
+                    <ul>
+                        <li><a href="#">História</a></li>
+                        <li><a href="#">Missão</a></li>
+                        <li><a href="#">Valores</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Links Úteis</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contato</h5>
+                    <ul>
+                        <li><a href="#">Email</a></li>
+                        <li><a href="#">Telefone</a></li>
+                        <li><a href="#">Endereço</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p>&copy; 2023 Direitos autorais By Equipe START</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+Style.CSS Template:
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 2em;
+    text-align: center;
+    clear: both;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col-md-4 {
+    flex-basis: 33.33%;
+    margin: 1em;
+}
+
+footer h5 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    margin-bottom: 1em;
+}
+
+footer a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #23527c;
+}
